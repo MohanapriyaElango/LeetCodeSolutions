@@ -8,11 +8,10 @@ class Solution {
             a.put(ch,a.getOrDefault(ch,0)+1);
             while(a.get(ch)>1)
             {
-                        a.put(s.charAt(left),a.getOrDefault(s.charAt(left),0)-1);
+                a.put(s.charAt(left),a.getOrDefault(s.charAt(left),0)-1);
                 left++;
             }
             ans=Math.max(ans,i-left+1);
         }
         return ans;
-    }
-}
+    }}
