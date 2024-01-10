@@ -1,29 +1,42 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        PriorityQueue<Integer> max= new PriorityQueue<Integer>(Comparator.reverseOrder());
-        PriorityQueue<Integer> min= new PriorityQueue<Integer>();
-        for(int i:nums1)
+        int i=0,j=0;
+        ArrayList<Integer> a= new ArrayList<Integer>();
+        while(i<nums1.length && j<nums2.length)
         {
-            max.add(i);
-            min.add(max.remove());
-            if(min.size()>max.size())
+            if(nums1[i]<nums2[j])
             {
-                max.add(min.remove());
+                a.add(nums1[i]);
+                i++;
+            }
+            else if(nums1[i]>nums2[j])
+            {
+                a.add(nums2[j]);
+                j++;
+            }
+            else if(nums1[i]==nums2[j])
+            {
+                a.add(nums1[i]);
+                a.add(nums2[j]);
+                i++;
+                j++;
             }
         }
-        for(int i:nums2)
+        while(i<nums1.length)
         {
-            max.add(i);
-            min.add(max.remove());
-            if(min.size()>max.size())
-            {
-                max.add(min.remove());
-            }
+            a.add(nums1[i]);
+            i++;
         }
-        System.out.println(max);
-        System.out.println(min);
-        if(min.size()==max.size())
-            return ((double)(min.peek()+max.peek())/2);
-        return (double)max.remove();
+        while(j<nums2.length)
+        {
+            a.add(nums2[j]);
+            j++;
+        }
+        int mid=(a.size()/2);
+        if(a.size()%2==0)
+        {
+            return ((double)(a.get(mid)+a.get(mid-1))/2);
+        }
+        return a.get(mid);
     }
 }
