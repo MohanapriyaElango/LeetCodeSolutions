@@ -5,7 +5,6 @@ class Solution {
     Map<Integer,Integer> a= new HashMap<Integer,Integer>();
     while(i<n && j<n ){
         int diff=Math.abs(nums[i]-nums[j]);
-        // System.out.println(i+" "+j+" "+nums[i]+" "+nums[j]+" "+diff);
         if(diff==k){
             if(!a.containsKey(nums[i]))
             {
@@ -25,8 +24,6 @@ class Solution {
             j++;
         }
         }
-        // System.out.println(count);
-    
     return count;
     }
 }
