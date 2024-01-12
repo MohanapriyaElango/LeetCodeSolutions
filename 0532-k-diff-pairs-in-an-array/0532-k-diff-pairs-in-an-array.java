@@ -4,11 +4,11 @@ class Solution {
     int i=0,j=1,n=nums.length,count=0;
     Map<Integer,Integer> a= new HashMap<Integer,Integer>();
     while(i<n && j<n ){
-        int diff=Math.abs(nums[i]-nums[j]);
+        int n1=nums[i],n2=nums[j],diff=Math.abs(n1-n2);
         if(diff==k){
-            if(!a.containsKey(nums[i]))
+            if(!a.containsKey(n1))
             {
-             a.put(nums[i],nums[j]);
+             a.put(n1,n2);
              count++;
             }
           i++;
