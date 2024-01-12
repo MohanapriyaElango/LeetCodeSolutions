@@ -7,9 +7,7 @@ class Solution {
         for(int i: nums1)
         {
             if(li.contains(i))
-            {
                 a.add(i);
-            }
         }
         int[]ans= new int[a.size()];
         int k=0;
