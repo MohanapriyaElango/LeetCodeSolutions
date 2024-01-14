@@ -9,5 +9,4 @@ class Solution {
         ans.append(sa[0]);
         String ans1= new String(ans);
         return ans1;
-    }
-}
+    }}
