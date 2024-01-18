@@ -10,5 +10,4 @@ class Solution {
                 max=prefix[i];
         }
         return max;
-    }
-}
+    }}
