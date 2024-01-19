@@ -7,8 +7,7 @@ class Solution {
             if(min>row[i] && i!=ele)
             {
                 min=row[i];
-            }
-        }
+            }}
         return min;
     }
     public int minFallingPathSum(int[][] grid) {
