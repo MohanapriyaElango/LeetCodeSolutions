@@ -8,9 +8,8 @@ class Solution {
             if(a.get(i)==2)
             {
               ans= i;
-              break;
-            }
+              break;}
         }
         return ans;
-    }
-}
+    
+    }}
