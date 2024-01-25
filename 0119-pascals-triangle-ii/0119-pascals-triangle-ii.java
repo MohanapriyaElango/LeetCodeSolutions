@@ -22,5 +22,4 @@ class Solution {
             ans.add(a);
         }
         return ans.get(numRows);
-    }
-}
+    }}
