@@ -15,7 +15,6 @@ class Solution {
                 i++;
                 j--;
         }
-        String ans= new String(a);
-        return ans;
+        return a.toString();
     }
 }
