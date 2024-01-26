@@ -4,12 +4,6 @@ class Solution {
         int i=0,j=s.length()-1;
         while(i<j)
         {
-            if(a.charAt(i)==a.charAt(j))
-            {
-                i++;
-                j--;
-            }
-            else{
                 if((int)a.charAt(i)>(int)(a.charAt(j)))
                 {
                     a.setCharAt(i,a.charAt(j));
@@ -20,7 +14,6 @@ class Solution {
                 }
                 i++;
                 j--;
-            }
         }
         String ans= new String(a);
         return ans;
