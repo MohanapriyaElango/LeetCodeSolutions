@@ -1,11 +1,12 @@
 class Solution {
     public String finalString(String s) {
       StringBuilder a= new StringBuilder();
-      for(char i: s.toCharArray())  
+      for(int i=0;i<s.length();i++)  
       {
-          if(i!='i')
+          char c=s.charAt(i);
+          if(c!='i')
           {
-              a.append(i);
+              a.append(c);
           }
           else{
               a.reverse();
