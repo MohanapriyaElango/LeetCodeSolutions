@@ -16,8 +16,7 @@ class Solution {
                 ans=ans-a.get(s.charAt(i));
             }
             else
-                ans=ans+a.get(s.charAt(i));
-        }
+                ans=ans+a.get(s.charAt(i)); }
        return ans; 
     }
 }
