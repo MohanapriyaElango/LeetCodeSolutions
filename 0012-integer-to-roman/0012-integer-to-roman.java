@@ -10,4 +10,5 @@ class Solution {
         ans.append(tens[(num/10)%10]);
         ans.append(ones[num%10]);
         return ans.toString();
+    
     }}
