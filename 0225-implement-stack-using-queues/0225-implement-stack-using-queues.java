@@ -18,8 +18,7 @@ class MyStack {
     
     public boolean empty() {
         return a.isEmpty();
-    }
-}
+    }}
 
 /**
  * Your MyStack object will be instantiated and called as such:
