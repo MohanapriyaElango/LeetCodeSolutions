@@ -23,5 +23,5 @@ class Solution {
         ans[0]=even;
         ans[1]=odd;
         return ans;
-  }
-}
+  
+    }}
