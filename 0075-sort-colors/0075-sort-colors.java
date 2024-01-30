@@ -15,8 +15,7 @@ class Solution {
                 j=i+1;
             }
             else
-            j++;
-        }
+            j++;}
 
         //THREE POINTERS AND ONE PASS- ALGO
         // int left=0,right=nums.length-1,i=0;
