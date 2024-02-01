@@ -3,13 +3,13 @@ class Solution {
         int left=0;
         long cur=0;
         long ans=0;
-        Map<Integer,Integer> a= new HashMap<Integer,Integer>();
+        Set<Integer> a= new HashSet<Integer>();
         for(int right=0;right<nums.length;right++)
         {
-            if(!a.containsKey(nums[right]))
+            if(!a.contains(nums[right]))
             {
                 // System.out.println(right+" "+nums[right]+" "+"1");
-                a.put(nums[right],1);
+                a.add(nums[right]);
                 cur=cur+nums[right];
                 if(right-left+1==k)
                 {
@@ -19,16 +19,16 @@ class Solution {
                    left++;
                 }
             }
-            else if(a.containsKey(nums[right]))
+            else if(a.contains(nums[right]))
             {
                 // System.out.println(right+" "+nums[right]+" "+"2");
-                while(a.containsKey(nums[right]))
+                while(a.contains(nums[right]))
                 {
                     cur=cur-nums[left];
                     a.remove(nums[left]);
                     left++;
                 }
-                a.put(nums[right],1);
+                a.add(nums[right]);
                 cur=cur+nums[right];
             }
              }
