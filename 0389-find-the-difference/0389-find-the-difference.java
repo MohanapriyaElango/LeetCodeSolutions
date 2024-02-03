@@ -1,14 +1,13 @@
 class Solution {
     public char findTheDifference(String s, String t) {
-        // int i=0,j=0;
         int[] a= new int[26];
         int[] b= new int[26];
         char ans='a';
         for(char i: s.toCharArray())
-        a[i-'a']=a[i-'a']+1;
+        a[i-'a']++;
 
         for(char i: t.toCharArray())
-        b[i-'a']=b[i-'a']+1;
+        b[i-'a']++;
 
         for(int i=0;i<26;i++)
         {
