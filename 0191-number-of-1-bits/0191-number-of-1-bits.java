@@ -8,5 +8,4 @@ public class Solution {
             ans++;
         }
         return ans;
-    }
-}
+    }}
