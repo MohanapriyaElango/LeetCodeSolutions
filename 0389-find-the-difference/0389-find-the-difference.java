@@ -14,7 +14,4 @@ class Solution {
             if(a[i]!=b[i])
             ans=(char)(i+97);
         }
-        return ans;
-    
-    }
-}
+        return ans; }}
