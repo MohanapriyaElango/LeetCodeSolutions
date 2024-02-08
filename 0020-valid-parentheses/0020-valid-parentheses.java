@@ -10,8 +10,7 @@ class Solution {
             if(!s.isEmpty() && a.containsKey(i) && a.get(i)==s.peek())
                 s.pop();
             else
-            s.push(i);
-               }
+            s.push(i);}
         if(s.isEmpty())
             return true;
         return false;
