@@ -2,8 +2,7 @@ class Solution {
     public boolean halvesAreAlike(String s) {
         String a= s.substring(0,(s.length()/2));
         String b= s.substring((s.length()/2));
-        int a1=0,b1=0;
-        
+        int a1=0,b1=0; 
         for(int k=0;k<s.length()/2;k++)
         {
             char i= a.charAt(k);
