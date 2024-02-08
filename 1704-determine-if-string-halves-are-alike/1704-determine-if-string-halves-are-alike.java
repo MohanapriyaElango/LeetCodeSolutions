@@ -3,6 +3,7 @@ class Solution {
         String a= s.substring(0,(s.length()/2));
         String b= s.substring((s.length()/2));
         int a1=0,b1=0;
+        
         for(int k=0;k<s.length()/2;k++)
         {
             char i= a.charAt(k);
@@ -11,7 +12,8 @@ class Solution {
             a1++;
             if(j=='a' || j=='e' || j=='i' || j=='o' || j=='u' || j=='A' || j=='E' || j=='I' || j=='O' || j=='U')
             b1++;
+        
         }
-        return a1==b1;
+       return a1==b1;
     }
 }
