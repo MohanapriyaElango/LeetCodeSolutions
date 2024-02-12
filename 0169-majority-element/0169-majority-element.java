@@ -12,7 +12,6 @@ class Solution {
     //     }}
     // return ans;
     
-        
         Arrays.sort(nums);
         return nums[nums.length/2];
     }
