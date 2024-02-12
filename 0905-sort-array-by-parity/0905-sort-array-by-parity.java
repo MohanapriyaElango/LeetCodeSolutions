@@ -8,7 +8,8 @@ class Solution {
             {
                 while(j<nums.length && nums[j]%2==1)
                     j++;
-                if(j<nums.length){
+                if(j<nums.length)
+                {
                     int temp=nums[i];
                     nums[i]=nums[j];
                     nums[j]=temp;
