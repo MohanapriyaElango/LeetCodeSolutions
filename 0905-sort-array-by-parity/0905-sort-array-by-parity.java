@@ -21,6 +21,8 @@ class Solution {
             else{
                 i++;
                 j++;
-            }}
+            }
+        }
         return nums;
-    }}
+    }
+}
