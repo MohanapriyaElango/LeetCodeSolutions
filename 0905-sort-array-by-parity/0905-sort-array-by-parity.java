@@ -16,8 +16,7 @@ class Solution {
                     nums[j]=temp;
                     i++;
                     j=j+1;
-                }
-            }
+                }}
             else{
                 i++;
                 j++;
