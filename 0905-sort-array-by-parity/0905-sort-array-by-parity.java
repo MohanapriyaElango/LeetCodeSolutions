@@ -4,7 +4,8 @@ class Solution {
         if(nums.length<2)
         return nums;
         while(i<=j && i<nums.length && j<nums.length) {
-            if(nums[i]%2==1){
+            if(nums[i]%2==1)
+            {
                 while(j<nums.length && nums[j]%2==1)
                     j++;
                 if(j<nums.length){
@@ -13,6 +14,7 @@ class Solution {
                     nums[j]=temp;
                     i++;
                     j=j+1;
+                
                 }}
             else{
                 i++;
