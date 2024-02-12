@@ -5,8 +5,7 @@ class Solution {
         return nums;
         while(i<=j && i<nums.length && j<nums.length)
         {
-            if(nums[i]%2==1)
-            {
+            if(nums[i]%2==1){
                 while(j<nums.length && nums[j]%2==1)
                     j++;
                 if(j<nums.length){
