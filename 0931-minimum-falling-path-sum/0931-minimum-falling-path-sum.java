@@ -10,9 +10,7 @@ class Solution {
             }
         }
         int min= Integer.MAX_VALUE;
-        for(int i:matrix[matrix.length-1])
-        
-        {
+        for(int i:matrix[matrix.length-1]){
             if(min>i)
             {
                 min=i;
