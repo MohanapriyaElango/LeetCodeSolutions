@@ -16,6 +16,7 @@ class Solution {
             {
                 min=i;
             }
+       
         }
         return min;
     }
