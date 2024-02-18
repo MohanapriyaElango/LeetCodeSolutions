@@ -1,7 +1,7 @@
 class Solution {
     public int maxProfit(int[] prices) 
     {
-        int buy=0,sell=1,ans=0;
+        int buy=0,sell=0,ans=0;
         while(sell<prices.length)
         {
            if(prices[buy]>prices[sell]){
@@ -15,4 +15,6 @@ class Solution {
            }
         }
         return ans;
-}}
+
+    }
+}
