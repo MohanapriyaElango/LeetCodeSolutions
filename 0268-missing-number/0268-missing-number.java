@@ -7,4 +7,5 @@ class Solution {
             sum2=sum2+i;
         return sum1-sum2;
     }
+
 }
