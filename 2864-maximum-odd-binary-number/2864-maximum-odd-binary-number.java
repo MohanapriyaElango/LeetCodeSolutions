@@ -11,5 +11,6 @@ class Solution {
         ans=ans+("0".repeat(zero));
         ans=ans+"1";
         return ans;
+    
     }
 }
