@@ -3,6 +3,8 @@ class Solution {
         int len=(ransomNote.length()>magazine.length())?ransomNote.length():magazine.length();
         char[] r=new char[26];
         char[] m=new char[26];
+        if(ransomNote.length()>magazine.length())
+            return false;
         for(int i=0;i<len;i++)
         {
             if(i<ransomNote.length())
