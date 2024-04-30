@@ -16,11 +16,9 @@ class Solution {
                     flag=1;
                     break;
                 }
-                System.out.print(tickets[i]+" ");
             }
             if(flag==1)
                 break;
-            System.out.println();
         }
         return time;
     }
