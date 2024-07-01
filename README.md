@@ -15,4 +15,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0485-max-consecutive-ones](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/0485-max-consecutive-ones) |
+| [1293-three-consecutive-odds](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/1293-three-consecutive-odds) |
 <!---LeetCode Topics End-->
