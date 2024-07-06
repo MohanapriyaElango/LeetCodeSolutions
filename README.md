@@ -14,6 +14,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0118-pascals-triangle](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/0118-pascals-triangle) |
 | [0485-max-consecutive-ones](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/0485-max-consecutive-ones) |
 | [1293-three-consecutive-odds](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/1293-three-consecutive-odds) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0118-pascals-triangle](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/0118-pascals-triangle) |
 <!---LeetCode Topics End-->
