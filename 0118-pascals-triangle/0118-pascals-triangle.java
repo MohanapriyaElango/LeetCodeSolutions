@@ -6,9 +6,6 @@ class Solution {
         ));
         if(numRows==1)
         {
-        //     // List<List<Integer>> ans1 = new ArrayList<>(Arrays.asList(
-        //     //     Arrays.asList(1)  )); 
-        // return ([[1]]).asList();
             ans.remove(1);
         }
         for(int i=2;i<numRows;i++)
