@@ -30,4 +30,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/0141-linked-list-cycle) |
+## Math
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/2645-pass-the-pillow) |
+## Simulation
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
