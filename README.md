@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0118-pascals-triangle](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/0118-pascals-triangle) |
+| [0338-counting-bits](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/0338-counting-bits) |
 ## Hash Table
 |  |
 | ------- |
@@ -48,4 +49,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0595-big-countries](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/0595-big-countries) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0338-counting-bits](https://github.com/MohanapriyaElango/LeetCodeSolutions/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
